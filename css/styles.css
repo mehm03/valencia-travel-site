@@ -1,0 +1,107 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(120deg, #f6d365, #fda085);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: linear-gradient(to right, #ff7eb3, #ff758c);
+    color: #fff;
+    border: none;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #ffeeba !important;
+    text-shadow: 0px 0px 8px rgba(255, 238, 186, 0.8);
+}
+
+h1, h2, h3 {
+    color: #333; /* Ensures text is readable */
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    border: none;
+    color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.btn-secondary {
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    border: none;
+    color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-secondary:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.carousel img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel img:hover {
+    transform: scale(1.05);
+}
+
+.list-group-item {
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    margin: 5px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item:hover {
+    background: #ffeeba;
+    color: #333;
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+}
+
+form .form-control {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+form .form-control:focus {
+    border-color: #2575fc;
+    box-shadow: 0px 0px 8px rgba(37, 117, 252, 0.5);
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
